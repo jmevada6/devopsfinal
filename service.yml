@@ -7,6 +7,6 @@ spec:
   ports:
     - port: 80
       targetPort: 80
-      nodePort: 300001
+      nodePort: 30001
   selector:
     app: webserver
